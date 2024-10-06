@@ -150,7 +150,7 @@ Fonctions</h2></td></tr>
 <tr class="memdesc:ac55917178d444d1f7f6e0172d0df4803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans le secure element du lecteur pour lecteurs AccessControl / CDC1 / CDC2 / CDC3 / TCP1 / TCP2 et TCP3.  <br /></td></tr>
 <tr class="separator:ac55917178d444d1f7f6e0172d0df4803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe71133a29caf62bdce3f03e189cd0e" id="r_adbe71133a29caf62bdce3f03e189cd0e"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbe71133a29caf62bdce3f03e189cd0e">Mf_Classic_PersonalizeUID</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Type)</td></tr>
-<tr class="memdesc:adbe71133a29caf62bdce3f03e189cd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans l’EEPROM du lecteur.  <br /></td></tr>
+<tr class="memdesc:adbe71133a29caf62bdce3f03e189cd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Personnalisation de l'UID.  <br /></td></tr>
 <tr class="separator:adbe71133a29caf62bdce3f03e189cd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c41c6cd907e21efe6f996e83810c9d2" id="r_a3c41c6cd907e21efe6f996e83810c9d2"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c41c6cd907e21efe6f996e83810c9d2">Mf_Classic_Authenticate</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> internal_Key, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a3c41c6cd907e21efe6f996e83810c9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase d'Authentification pour la carte MIFARE Classic.  <br /></td></tr>
@@ -609,7 +609,7 @@ Fonctions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Chargement des clés MIFARE dans l’EEPROM du lecteur. </p>
+<p>Personnalisation de l'UID. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
 <dl class="retval"><dt>Valeurs retournées</dt><dd>
   <table class="retval">
@@ -740,7 +740,7 @@ Fonctions</h2></td></tr>
     <tr><td class="paramname">pName</td><td>[In] Information sur le lecteur.  </td></tr>
     <tr><td class="paramname">Auth</td><td>[In] Authentification automatique TRUE -&gt; Authentification automatique dans le lecteur FALSE -&gt; pas d’Authentification automatique.  </td></tr>
     <tr><td class="paramname">Sector</td><td>[In] Secteur de la carte MIFARE.  </td></tr>
-    <tr><td class="paramname">pData</td><td>[Out] pData[48] Données lu..  </td></tr>
+    <tr><td class="paramname">pData</td><td>[Out] pData[48] Données lu.  </td></tr>
     <tr><td class="paramname">AuthKey</td><td>[In] Clé d'Authentification AuthKeyA ou AuthKeyB.  </td></tr>
     <tr><td class="paramname">KeyIndex</td><td>[In] Index de la clé stocké en interne dans le coupleur (0 à 15) ignorée si internal_Key = FALSE. </td></tr>
   </table>
