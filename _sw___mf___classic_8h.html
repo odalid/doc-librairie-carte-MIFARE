@@ -144,10 +144,10 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
 <tr class="memitem:a73f7ad46298b7c424c0e6f4c7a261068" id="r_a73f7ad46298b7c424c0e6f4c7a261068"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f7ad46298b7c424c0e6f4c7a261068">Mf_Classic_LoadKey</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
-<tr class="memdesc:a73f7ad46298b7c424c0e6f4c7a261068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans l’EEPROM du lecteur.  <br /></td></tr>
+<tr class="memdesc:a73f7ad46298b7c424c0e6f4c7a261068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans le secure element du lecteur pour lecteurs CDC1 / CDC2 / TCP1 et TCP2.  <br /></td></tr>
 <tr class="separator:a73f7ad46298b7c424c0e6f4c7a261068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac55917178d444d1f7f6e0172d0df4803" id="r_ac55917178d444d1f7f6e0172d0df4803"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55917178d444d1f7f6e0172d0df4803">Mf_Classic_LoadKey2</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKeyA, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKeyB, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
-<tr class="memdesc:ac55917178d444d1f7f6e0172d0df4803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans l’EEPROM du lecteur.  <br /></td></tr>
+<tr class="memdesc:ac55917178d444d1f7f6e0172d0df4803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans le secure element du lecteur pour lecteurs AccessControl / CDC1 / CDC2 / CDC3 / TCP1 / TCP2 et TCP3.  <br /></td></tr>
 <tr class="separator:ac55917178d444d1f7f6e0172d0df4803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe71133a29caf62bdce3f03e189cd0e" id="r_adbe71133a29caf62bdce3f03e189cd0e"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbe71133a29caf62bdce3f03e189cd0e">Mf_Classic_PersonalizeUID</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Type)</td></tr>
 <tr class="memdesc:adbe71133a29caf62bdce3f03e189cd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans l’EEPROM du lecteur.  <br /></td></tr>
@@ -521,7 +521,7 @@ Fonctions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Chargement des clés MIFARE dans l’EEPROM du lecteur. </p>
+<p>Chargement des clés MIFARE dans le secure element du lecteur pour lecteurs CDC1 / CDC2 / TCP1 et TCP2. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
 <dl class="retval"><dt>Valeurs retournées</dt><dd>
   <table class="retval">
@@ -570,7 +570,7 @@ Fonctions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Chargement des clés MIFARE dans l’EEPROM du lecteur. </p>
+<p>Chargement des clés MIFARE dans le secure element du lecteur pour lecteurs AccessControl / CDC1 / CDC2 / CDC3 / TCP1 / TCP2 et TCP3. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
 <dl class="retval"><dt>Valeurs retournées</dt><dd>
   <table class="retval">
