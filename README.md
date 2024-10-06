@@ -5,7 +5,7 @@ Introduction
 ------------------------
 Cette librairie peut etre utiliser pour lire / écrire dans les carte MIFARE et les lecteurs coupleur RFID / NFC ODALID (https://odalid.com)
 
-La documentation en ligne est disponible ici (https://odalid.com](https://odalid.github.io/doc-librairie-carte-MIFARE/)
+La documentation en ligne est disponible ici (https://odalid.github.io/doc-librairie-carte-MIFARE/)
 
 Ci desoous les produits compatible en USB (CDC) et TCP/IP/Ethernet POE (TCP)
 
