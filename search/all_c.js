@@ -17,5 +17,6 @@ var searchData=
   ['readerpcsc_14',['ReaderPCSC',['../_hardware_8h.html#a4b015126f6998d9a977baafcf42dc627',1,'Hardware.h']]],
   ['readertcp_15',['ReaderTCP',['../_hardware_8h.html#a48be0d33847d6266741d9a8f34db3415',1,'Hardware.h']]],
   ['rf_5fconfig_5fcard_5fmode_16',['RF_Config_Card_Mode',['../_sw___device_8h.html#a6e843219776ee15fa5558016638ba21b',1,'Sw_Device.h']]],
-  ['rf_5fpower_5fcontrol_17',['RF_Power_Control',['../_sw___device_8h.html#ab690421c6b357783cac734fbb091fa2b',1,'Sw_Device.h']]]
+  ['rf_5fpower_5fcontrol_17',['RF_Power_Control',['../_sw___device_8h.html#ab690421c6b357783cac734fbb091fa2b',1,'Sw_Device.h']]],
+  ['rfid_20nfc_20compatibles_18',['Les lecteurs/coupleurs RFID/NFC compatibles',['../index.html#autotoc_md2',1,'']]]
 ];

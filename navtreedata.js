@@ -27,7 +27,8 @@ var NAVTREE =
   [ "ODALID Librairie Carte MIFARE", "index.html", [
     [ "Introduction", "index.html#autotoc_md0", null ],
     [ "Presentation", "index.html#autotoc_md1", null ],
-    [ "Copyright", "index.html#autotoc_md2", null ],
+    [ "Les lecteurs/coupleurs RFID/NFC compatibles", "index.html#autotoc_md2", null ],
+    [ "Copyright", "index.html#autotoc_md3", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Structures de données", "annotated.html", [
       [ "Structures de données", "annotated.html", "annotated_dup" ],

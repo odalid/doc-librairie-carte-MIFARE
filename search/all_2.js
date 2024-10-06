@@ -83,5 +83,7 @@ var searchData=
   ['com_5fwrong_5fvalue_80',['COM_WRONG_VALUE',['../_mf_err_no_8h.html#a8b53b67f736eeb44430e12c4eeded20a',1,'MfErrNo.h']]],
   ['com_5fwsa_5fsocket_5ffailed_81',['COM_WSA_SOCKET_FAILED',['../_mf_err_no_8h.html#a96c0df02837e2fb180d3de8650599517',1,'MfErrNo.h']]],
   ['com_5fwsastartup_5ffailed_82',['COM_WSASTARTUP_FAILED',['../_mf_err_no_8h.html#ae6dd2392ce260c2ee3c83e52212207d4',1,'MfErrNo.h']]],
-  ['copyright_83',['Copyright',['../index.html#autotoc_md2',1,'']]]
+  ['compatibles_83',['Les lecteurs/coupleurs RFID/NFC compatibles',['../index.html#autotoc_md2',1,'']]],
+  ['copyright_84',['Copyright',['../index.html#autotoc_md3',1,'']]],
+  ['coupleurs_20rfid_20nfc_20compatibles_85',['Les lecteurs/coupleurs RFID/NFC compatibles',['../index.html#autotoc_md2',1,'']]]
 ];
