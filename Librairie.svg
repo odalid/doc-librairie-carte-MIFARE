@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="105cm" height="26cm" viewBox="-542 -642 2083 503" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="20" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="20" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="70" y="-504.708">
+    <tspan x="70" y="-504.708">Mifare</tspan>
+    <tspan x="70" y="-483.542">Ultralight</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ff0000" x="260" y="-640" width="280" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="-640" width="280" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="400" y="-594.125">
+    <tspan x="400" y="-594.125">App SAM AV3</tspan>
+  </text>
+  <g>
+    <rect style="fill: #c5cdff" x="260" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="-540" width="100" height="80"/>
+  </g>
+  <g>
+    <rect style="fill: #ff0000" x="500" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="550" y="-504.708">
+    <tspan x="550" y="-504.708">Secure</tspan>
+    <tspan x="550" y="-483.542">Element</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="310" y="-504.708">
+    <tspan x="310" y="-504.708">Mifare</tspan>
+    <tspan x="310" y="-483.542">DESFire</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-340" y="-340" width="300" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-340" y="-340" width="300" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-190" y="-294.125">
+    <tspan x="-190" y="-294.125">Plugin CDC Windows</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ff0000" x="620" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="620" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="670" y="-504.708">
+    <tspan x="670" y="-504.708">SAM</tspan>
+    <tspan x="670" y="-483.542">Calypso</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-20" y="-340" width="300" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-20" y="-340" width="300" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="130" y="-294.125">
+    <tspan x="130" y="-294.125">Plugin CDC Linux</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="340" y="-340" width="300" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="-340" width="300" height="80"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="660" y="-340" width="300" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="660" y="-340" width="300" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="490" y="-294.125">
+    <tspan x="490" y="-294.125">Plugin TCP/IP Windows</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="810" y="-294.125">
+    <tspan x="810" y="-294.125">Plugin TCP/IP Linux</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="190" y="-504.708">
+    <tspan x="190" y="-504.708">Mifare</tspan>
+    <tspan x="190" y="-483.542">Classic</tspan>
+  </text>
+  <g>
+    <rect style="fill: #c5cdff" x="-100" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-100" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-50" y="-494.125">
+    <tspan x="-50" y="-494.125">ST</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-340" y="-440" width="1300" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-340" y="-440" width="1300" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="310" y="-404.708">
+    <tspan x="310" y="-404.708">Echange APDU Contactless / Contact</tspan>
+    <tspan x="310" y="-383.542">ISO14443 ISO15693 IS07816</tspan>
+  </text>
+  <g>
+    <rect style="fill: #00ff00" x="-540" y="-340" width="160" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-540" y="-340" width="160" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-460" y="-294.125">
+    <tspan x="-460" y="-294.125">ODALID Plugin</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-460" y="-300">
+    <tspan x="-460" y="-300"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #00ff00" x="-540" y="-440" width="160" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-540" y="-440" width="160" height="80"/>
+  </g>
+  <g>
+    <rect style="fill: #00ff00" x="-540" y="-540" width="160" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-540" y="-540" width="160" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-460" y="-394.125">
+    <tspan x="-460" y="-394.125">ODALID Core</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-460" y="-504.708">
+    <tspan x="-460" y="-504.708">ODALID</tspan>
+    <tspan x="-460" y="-483.542">Extension</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-220" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-220" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-170" y="-494.125">
+    <tspan x="-170" y="-494.125">Pool</tspan>
+  </text>
+  <g>
+    <rect style="fill: #00ff00" x="1000" y="-540" width="160" height="280"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1000" y="-540" width="160" height="280"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1080" y="-404.708">
+    <tspan x="1080" y="-404.708">ODALID </tspan>
+    <tspan x="1080" y="-383.542">Common</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1200" y="-540" width="100" height="280"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1200" y="-540" width="100" height="280"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1250" y="-394.125">
+    <tspan x="1250" y="-394.125">CRC</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1320" y="-540" width="100" height="280"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1320" y="-540" width="100" height="280"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1370" y="-394.125">
+    <tspan x="1370" y="-394.125">TRACE</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-340" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-340" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-290" y="-494.125">
+    <tspan x="-290" y="-494.125">Device</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ff0000" x="740" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="740" y="-540" width="100" height="80"/>
+  </g>
+  <g>
+    <rect style="fill: #00ff00" x="-540" y="-640" width="160" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-540" y="-640" width="160" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-460" y="-604.708">
+    <tspan x="-460" y="-604.708">ODALID</tspan>
+    <tspan x="-460" y="-583.542">Applications</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="790" y="-494.125">
+    <tspan x="790" y="-494.125">SAM AV3</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-340" y="-640" width="280" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-340" y="-640" width="280" height="80"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="-600">
+    <tspan x="220" y="-600"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-289.125" y="-609.875" width="178.25" height="19.75"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-200" y="-594.125">
+      <tspan x="-200" y="-594.125">App AccessControl</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #c5cdff" x="-40" y="-640" width="280" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-40" y="-640" width="280" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="100" y="-594.125">
+    <tspan x="100" y="-594.125">App Ticketing</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ff0000" x="860" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="860" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="910" y="-494.125">
+    <tspan x="910" y="-494.125">ATECC</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1440" y="-540" width="100" height="280"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1440" y="-540" width="100" height="280"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1490" y="-394.125">
+    <tspan x="1490" y="-394.125">Librairie</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-340" y="-220" width="280" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-340" y="-220" width="280" height="80"/>
+  </g>
+  <g>
+    <rect style="fill: #c5cdff" x="-40" y="-220" width="280" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-40" y="-220" width="280" height="80"/>
+  </g>
+  <g>
+    <rect style="fill: #ff0000" x="260" y="-220" width="280" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="-220" width="280" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-200" y="-174.125">
+    <tspan x="-200" y="-174.125">Education</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="100" y="-174.125">
+    <tspan x="100" y="-174.125">Standard</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="400" y="-174.125">
+    <tspan x="400" y="-174.125">Secure</tspan>
+  </text>
+  <g>
+    <rect style="fill: #c5cdff" x="380" y="-540" width="100" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="-540" width="100" height="80"/>
+  </g>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="430" y="-494.125">
+    <tspan x="430" y="-494.125">Calypso</tspan>
+  </text>
+</svg>
