@@ -1,7 +1,7 @@
 var struct_reader_name =
 [
     [ "device", "struct_reader_name.html#a2376f17d1e7367401184b2a3978bcd3a", null ],
-    [ "g_hCOM", "struct_reader_name.html#a495277a04359ac7c34090c93b7ebb928", null ],
+    [ "hCOM", "struct_reader_name.html#a7baac52d4384072a214fabda6617d831", null ],
     [ "hSocket", "struct_reader_name.html#acd3f33bcffa3415a0b8a58706fcc0dcd", null ],
     [ "IPReader", "struct_reader_name.html#a24362ae702baa403025803d02aceb47a", null ],
     [ "nPort", "struct_reader_name.html#ac358dbe6fcd50bbac690cd2bc7d5eb2a", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ipreader_0',['IPReader',['../struct_reader_name.html#a24362ae702baa403025803d02aceb47a',1,'ReaderName']]]
+  ['nport_0',['nPort',['../struct_reader_name.html#ac358dbe6fcd50bbac690cd2bc7d5eb2a',1,'ReaderName']]]
 ];

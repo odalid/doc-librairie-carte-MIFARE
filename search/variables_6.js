@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_0',['Type',['../struct_reader_name.html#aeff746a68ed515a1d9f0c40a38dd200b',1,'ReaderName']]]
+  ['version_0',['version',['../struct_reader_name.html#ad3989e824983c719481ceed5a991fdd3',1,'ReaderName']]]
 ];

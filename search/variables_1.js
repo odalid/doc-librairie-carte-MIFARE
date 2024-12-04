@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['g_5fhcom_0',['g_hCOM',['../struct_reader_name.html#a495277a04359ac7c34090c93b7ebb928',1,'ReaderName']]]
+  ['hcom_0',['hCOM',['../struct_reader_name.html#a7baac52d4384072a214fabda6617d831',1,'ReaderName']]],
+  ['hsocket_1',['hSocket',['../struct_reader_name.html#acd3f33bcffa3415a0b8a58706fcc0dcd',1,'ReaderName']]]
 ];
