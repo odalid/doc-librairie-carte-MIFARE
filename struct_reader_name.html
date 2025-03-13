@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
   <td id="projectalign">
-   <div id="projectname">ODALID Librairie Carte MIFARE<span id="projectnumber">&#160;v0.5</span>
+   <div id="projectname">ODALID Librairie Carte MIFARE<span id="projectnumber">&#160;v0.6</span>
    </div>
   </td>
  </tr>
@@ -107,6 +107,16 @@ $(function(){initNavTree('struct_reader_name.html',''); initResizable(true); });
  <a href="#details">Plus de détails...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_hardware_8h_source.html">Hardware.h</a>&gt;</code></p>
+<div class="dynheader">
+Graphe de collaboration de ReaderName:</div>
+<div class="dyncontent">
+<div class="center"><img src="struct_reader_name__coll__graph.png" border="0" usemap="#a_reader_name_coll__map" alt="Collaboration graph"/></div>
+<map name="a_reader_name_coll__map" id="a_reader_name_coll__map">
+<area shape="rect" title="Objet contenant les informations du Reader." alt="" coords="12,96,110,123"/>
+<area shape="rect" href="struct_d_e_v_i_c_e___i_n_f_o.html" title=" " alt="" coords="5,5,117,32"/>
+<area shape="poly" title=" " alt="" coords="64,48,64,95,58,95,58,48"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">légende</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Champs de données</h2></td></tr>
@@ -128,6 +138,9 @@ Champs de données</h2></td></tr>
 <tr class="separator:a7713b82f71b199d461dca3796410d1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e0e5541fa2a95dc1a1865c9c27790d2" id="r_a1e0e5541fa2a95dc1a1865c9c27790d2"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0e5541fa2a95dc1a1865c9c27790d2">stack</a> [30]</td></tr>
 <tr class="separator:a1e0e5541fa2a95dc1a1865c9c27790d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d925c88f63caa1f5533a395a91f7394" id="r_a7d925c88f63caa1f5533a395a91f7394"><td class="memItemLeft" align="right" valign="top"><a id="a7d925c88f63caa1f5533a395a91f7394" name="a7d925c88f63caa1f5533a395a91f7394"></a>
+<a class="el" href="struct_d_e_v_i_c_e___i_n_f_o.html">DEVICE_INFO</a>&#160;</td><td class="memItemRight" valign="bottom"><b>device_info</b></td></tr>
+<tr class="separator:a7d925c88f63caa1f5533a395a91f7394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><p>Objet contenant les informations du Reader. </p>
@@ -143,7 +156,7 @@ Champs de données</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>[In] Port COM du peripherique pour ReaderCDC =&gt; CDC1 / CDC2 / CDC3 </p>
+<p>[In/Out] Port COM du peripherique pour ReaderCDC =&gt; CDC1 / CDC2 / CDC3 </p>
 
 </div>
 </div>

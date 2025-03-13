@@ -93,5 +93,7 @@ var searchData=
   ['mi_5fwrong_5fsel_5fcnt_90',['MI_WRONG_SEL_CNT',['../_mf_err_no_8h.html#a116b2254d6ca15a16668ea7f7ef30e71',1,'MfErrNo.h']]],
   ['mi_5fwrong_5ftest_5fmode_91',['MI_WRONG_TEST_MODE',['../_mf_err_no_8h.html#a15831671eac9230d4aaa83f2e4fdff7d',1,'MfErrNo.h']]],
   ['mi_5fwrong_5ftoken_92',['MI_WRONG_TOKEN',['../_mf_err_no_8h.html#ad6b3af912438a5a9f87bb38fcb8e2918',1,'MfErrNo.h']]],
-  ['mi_5fwrong_5fvalue_93',['MI_WRONG_VALUE',['../_mf_err_no_8h.html#a6aee4638f8aa9598eb635a0c344cb258',1,'MfErrNo.h']]]
+  ['mi_5fwrong_5fvalue_93',['MI_WRONG_VALUE',['../_mf_err_no_8h.html#a6aee4638f8aa9598eb635a0c344cb258',1,'MfErrNo.h']]],
+  ['mifare_5f106_5frxana_5freg_5fa_94',['MIFARE_106_RXANA_REG_A',['../_sw___device_8h.html#a32b66c3006c1c136b8848e7355f1d20e',1,'Sw_Device.h']]],
+  ['mifare_5f106_5frxthreshold_5freg_5fa_95',['MIFARE_106_RXTHRESHOLD_REG_A',['../_sw___device_8h.html#a179fc3f1af11e0b99a1e9c6b5025e4e8',1,'Sw_Device.h']]]
 ];

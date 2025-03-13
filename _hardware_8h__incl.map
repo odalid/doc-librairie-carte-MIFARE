@@ -1,5 +1,7 @@
 <map id="source/Common/Hardware.h" name="source/Common/Hardware.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,194,32"/>
-<area shape="rect" id="Node000002" href="$_type_defs_8h.html" title=" " alt="" coords="55,80,144,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,33,102,64,97,64,97,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,5,210,32"/>
+<area shape="rect" id="Node000002" href="$_type_defs_8h.html" title=" " alt="" coords="5,80,94,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,34,73,70,69,67,103,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="118,80,251,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,31,164,67,160,70,126,34"/>
 </map>

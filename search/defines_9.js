@@ -34,5 +34,7 @@ var searchData=
   ['tcl_5fsernrerr_31',['TCL_SERNRERR',['../_mf_err_no_8h.html#a0d85ccda94befe5de97b5caf6b3ef2be',1,'MfErrNo.h']]],
   ['tcl_5ftransmerr_5fhalted_32',['TCL_TRANSMERR_HALTED',['../_mf_err_no_8h.html#adc1ba675627d23eb98db9543936699b0',1,'MfErrNo.h']]],
   ['tcl_5ftransmerr_5fnotag_33',['TCL_TRANSMERR_NOTAG',['../_mf_err_no_8h.html#acd7f0acfabdd86e5b9b7e28b95804bfc',1,'MfErrNo.h']]],
-  ['tcl_5fuidlen_34',['TCL_UIDLEN',['../_mf_err_no_8h.html#a79f05d4279c3168586b590fb61e84691',1,'MfErrNo.h']]]
+  ['tcl_5fuidlen_34',['TCL_UIDLEN',['../_mf_err_no_8h.html#a79f05d4279c3168586b590fb61e84691',1,'MfErrNo.h']]],
+  ['typeb_5f106_5frxana_5freg_5fa_35',['TYPEB_106_RXANA_REG_A',['../_sw___device_8h.html#a852ea2463949b3bae5c7e4f3dba65b31',1,'Sw_Device.h']]],
+  ['typeb_5f106_5frxthreshold_5freg_5fa_36',['TYPEB_106_RXTHRESHOLD_REG_A',['../_sw___device_8h.html#a3bb29e92edb8f6aeb653771b3580f639',1,'Sw_Device.h']]]
 ];

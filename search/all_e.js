@@ -37,5 +37,7 @@ var searchData=
   ['tcl_5fuidlen_34',['TCL_UIDLEN',['../_mf_err_no_8h.html#a79f05d4279c3168586b590fb61e84691',1,'MfErrNo.h']]],
   ['tools_2eh_35',['Tools.h',['../_tools_8h.html',1,'']]],
   ['type_36',['Type',['../struct_reader_name.html#aeff746a68ed515a1d9f0c40a38dd200b',1,'ReaderName::Type'],['../group___type.html',1,'Type']]],
-  ['typedefs_2eh_37',['TypeDefs.h',['../_type_defs_8h.html',1,'']]]
+  ['typeb_5f106_5frxana_5freg_5fa_37',['TYPEB_106_RXANA_REG_A',['../_sw___device_8h.html#a852ea2463949b3bae5c7e4f3dba65b31',1,'Sw_Device.h']]],
+  ['typeb_5f106_5frxthreshold_5freg_5fa_38',['TYPEB_106_RXTHRESHOLD_REG_A',['../_sw___device_8h.html#a3bb29e92edb8f6aeb653771b3580f639',1,'Sw_Device.h']]],
+  ['typedefs_2eh_39',['TypeDefs.h',['../_type_defs_8h.html',1,'']]]
 ];

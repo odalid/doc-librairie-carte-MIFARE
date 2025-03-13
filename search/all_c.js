@@ -16,7 +16,8 @@ var searchData=
   ['readername_13',['ReaderName',['../struct_reader_name.html',1,'']]],
   ['readerpcsc_14',['ReaderPCSC',['../_hardware_8h.html#a4b015126f6998d9a977baafcf42dc627',1,'Hardware.h']]],
   ['readertcp_15',['ReaderTCP',['../_hardware_8h.html#a48be0d33847d6266741d9a8f34db3415',1,'Hardware.h']]],
-  ['rf_5fconfig_5fcard_5fmode_16',['RF_Config_Card_Mode',['../_sw___device_8h.html#a6e843219776ee15fa5558016638ba21b',1,'Sw_Device.h']]],
-  ['rf_5fpower_5fcontrol_17',['RF_Power_Control',['../_sw___device_8h.html#ab690421c6b357783cac734fbb091fa2b',1,'Sw_Device.h']]],
-  ['rfid_20nfc_20compatibles_18',['Les lecteurs/coupleurs RFID/NFC compatibles',['../index.html#autotoc_md2',1,'']]]
+  ['readregistryrc663_16',['ReadRegistryRC663',['../_sw___device_8h.html#a86c60e7b347af0c513e5345dcb94c633',1,'Sw_Device.h']]],
+  ['rf_5fconfig_5fcard_5fmode_17',['RF_Config_Card_Mode',['../_sw___device_8h.html#a6e843219776ee15fa5558016638ba21b',1,'Sw_Device.h']]],
+  ['rf_5fpower_5fcontrol_18',['RF_Power_Control',['../_sw___device_8h.html#ab690421c6b357783cac734fbb091fa2b',1,'Sw_Device.h']]],
+  ['rfid_20nfc_20compatibles_19',['Les lecteurs/coupleurs RFID/NFC compatibles',['../index.html#autotoc_md2',1,'']]]
 ];

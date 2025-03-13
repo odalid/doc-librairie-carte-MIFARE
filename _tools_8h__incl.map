@@ -1,10 +1,12 @@
 <map id="source/Common/Tools.h" name="source/Common/Tools.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="9,5,172,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="49,5,212,32"/>
 <area shape="rect" id="Node000002" href="$_type_defs_8h.html" title=" " alt="" coords="5,155,94,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,34,54,55,37,81,34,111,40,140,35,141,29,111,32,79,50,51,72,31"/>
-<area shape="rect" id="Node000003" href="$_hardware_8h.html" title=" " alt="" coords="47,80,135,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,33,94,64,88,64,88,33"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="159,80,236,107"/>
-<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="111,30,168,69,165,73,108,35"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="86,109,66,143,62,140,81,106"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,34,97,55,77,81,64,111,57,140,52,138,59,109,73,79,93,52,114,30"/>
+<area shape="rect" id="Node000003" href="$_hardware_8h.html" title=" " alt="" coords="87,80,175,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,33,134,64,128,64,128,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="199,80,276,107"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="151,30,208,69,205,73,148,35"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="118,109,76,146,73,142,115,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="118,155,251,181"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="142,106,168,141,164,144,138,109"/>
 </map>

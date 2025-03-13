@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
   <td id="projectalign">
-   <div id="projectname">ODALID Librairie Carte MIFARE<span id="projectnumber">&#160;v0.5</span>
+   <div id="projectname">ODALID Librairie Carte MIFARE<span id="projectnumber">&#160;v0.6</span>
    </div>
   </td>
  </tr>
@@ -111,14 +111,16 @@ Graphe des dépendances par inclusion de Sw_Device.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_sw___device_8h__incl.png" border="0" usemap="#asource_2_extension_2_device_2_sw___device_8h" alt=""/></div>
 <map name="asource_2_extension_2_device_2_sw___device_8h" id="asource_2_extension_2_device_2_sw___device_8h">
-<area shape="rect" title=" " alt="" coords="7,5,174,48"/>
+<area shape="rect" title=" " alt="" coords="47,5,214,48"/>
 <area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="5,171,94,197"/>
-<area shape="poly" title=" " alt="" coords="70,50,51,71,37,97,34,127,41,156,36,157,29,127,32,95,47,68,66,46"/>
-<area shape="rect" href="_hardware_8h.html" title=" " alt="" coords="47,96,135,123"/>
-<area shape="poly" title=" " alt="" coords="94,49,94,80,88,80,88,49"/>
-<area shape="rect" title=" " alt="" coords="159,96,236,123"/>
-<area shape="poly" title=" " alt="" coords="120,46,170,84,167,88,117,51"/>
-<area shape="poly" title=" " alt="" coords="86,125,66,159,62,156,81,122"/>
+<area shape="poly" title=" " alt="" coords="112,50,94,72,77,97,65,127,57,156,52,155,60,125,72,95,89,69,108,47"/>
+<area shape="rect" href="_hardware_8h.html" title=" " alt="" coords="87,96,175,123"/>
+<area shape="poly" title=" " alt="" coords="134,49,134,80,128,80,128,49"/>
+<area shape="rect" title=" " alt="" coords="199,96,276,123"/>
+<area shape="poly" title=" " alt="" coords="160,46,210,84,207,88,157,51"/>
+<area shape="poly" title=" " alt="" coords="118,125,76,162,73,158,115,121"/>
+<area shape="rect" title=" " alt="" coords="118,171,251,197"/>
+<area shape="poly" title=" " alt="" coords="142,122,168,157,164,160,138,125"/>
 </map>
 </div>
 </div>
@@ -170,6 +172,14 @@ Macros</h2></td></tr>
 <tr class="separator:ac69b87cb5151087202d5a354c87eb492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a109660ec7c41cf167d83833c660f7c14" id="r_a109660ec7c41cf167d83833c660f7c14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a109660ec7c41cf167d83833c660f7c14">LED4_ON</a>&#160;&#160;&#160;0x10</td></tr>
 <tr class="separator:a109660ec7c41cf167d83833c660f7c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a179fc3f1af11e0b99a1e9c6b5025e4e8" id="r_a179fc3f1af11e0b99a1e9c6b5025e4e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a179fc3f1af11e0b99a1e9c6b5025e4e8">MIFARE_106_RXTHRESHOLD_REG_A</a>&#160;&#160;&#160;0x00CF</td></tr>
+<tr class="separator:a179fc3f1af11e0b99a1e9c6b5025e4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b66c3006c1c136b8848e7355f1d20e" id="r_a32b66c3006c1c136b8848e7355f1d20e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32b66c3006c1c136b8848e7355f1d20e">MIFARE_106_RXANA_REG_A</a>&#160;&#160;&#160;0x00D1</td></tr>
+<tr class="separator:a32b66c3006c1c136b8848e7355f1d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bb29e92edb8f6aeb653771b3580f639" id="r_a3bb29e92edb8f6aeb653771b3580f639"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bb29e92edb8f6aeb653771b3580f639">TYPEB_106_RXTHRESHOLD_REG_A</a>&#160;&#160;&#160;0x0123</td></tr>
+<tr class="separator:a3bb29e92edb8f6aeb653771b3580f639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a852ea2463949b3bae5c7e4f3dba65b31" id="r_a852ea2463949b3bae5c7e4f3dba65b31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852ea2463949b3bae5c7e4f3dba65b31">TYPEB_106_RXANA_REG_A</a>&#160;&#160;&#160;0x0125</td></tr>
+<tr class="separator:a852ea2463949b3bae5c7e4f3dba65b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
@@ -197,6 +207,9 @@ Fonctions</h2></td></tr>
 <tr class="memitem:a6a8d165def56be2b443806d71f337e33" id="r_a6a8d165def56be2b443806d71f337e33"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a8d165def56be2b443806d71f337e33">Set_Property</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> AddReg, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Reg)</td></tr>
 <tr class="memdesc:a6a8d165def56be2b443806d71f337e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant d'envoyer les parametres de configuration du composant RF  <br /></td></tr>
 <tr class="separator:a6a8d165def56be2b443806d71f337e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8999932c30f7fa22c0d5eb2bcccf6bda" id="r_a8999932c30f7fa22c0d5eb2bcccf6bda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8999932c30f7fa22c0d5eb2bcccf6bda">Set_EEPROMProperty</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> AddReg, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Reg)</td></tr>
+<tr class="memdesc:a8999932c30f7fa22c0d5eb2bcccf6bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant d'envoyer les parametres de configuration du composant RF  <br /></td></tr>
+<tr class="separator:a8999932c30f7fa22c0d5eb2bcccf6bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab690421c6b357783cac734fbb091fa2b" id="r_ab690421c6b357783cac734fbb091fa2b"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab690421c6b357783cac734fbb091fa2b">RF_Power_Control</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> RFOnOff, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Delay)</td></tr>
 <tr class="memdesc:ab690421c6b357783cac734fbb091fa2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant d activer ou de desactiver le champ radio du lecteur  <br /></td></tr>
 <tr class="separator:ab690421c6b357783cac734fbb091fa2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,6 +228,18 @@ Fonctions</h2></td></tr>
 <tr class="memitem:a531a68f7673ef476b58c1d09d04e3357" id="r_a531a68f7673ef476b58c1d09d04e3357"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a531a68f7673ef476b58c1d09d04e3357">LCD</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> line, char *Send)</td></tr>
 <tr class="memdesc:a531a68f7673ef476b58c1d09d04e3357"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant de piloter l'afficheur  <br /></td></tr>
 <tr class="separator:a531a68f7673ef476b58c1d09d04e3357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd186bbbdd070021c16cefaaa058630" id="r_abcd186bbbdd070021c16cefaaa058630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcd186bbbdd070021c16cefaaa058630">UnlockRC663</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName)</td></tr>
+<tr class="memdesc:abcd186bbbdd070021c16cefaaa058630"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant d'envoyer les parametres de configuration du composant RF  <br /></td></tr>
+<tr class="separator:abcd186bbbdd070021c16cefaaa058630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e14cea503bb805b80284ed23c13718" id="r_ae2e14cea503bb805b80284ed23c13718"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2e14cea503bb805b80284ed23c13718">UseAuxRC663</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> aux)</td></tr>
+<tr class="memdesc:ae2e14cea503bb805b80284ed23c13718"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant d'envoyer les parametres de configuration du composant RF  <br /></td></tr>
+<tr class="separator:ae2e14cea503bb805b80284ed23c13718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1348f0d7c2d9016bdb07e352821fb19" id="r_ab1348f0d7c2d9016bdb07e352821fb19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1348f0d7c2d9016bdb07e352821fb19">UseSigoutRC663</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> sigout)</td></tr>
+<tr class="memdesc:ab1348f0d7c2d9016bdb07e352821fb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant d'envoyer les parametres de configuration du composant RF  <br /></td></tr>
+<tr class="separator:ab1348f0d7c2d9016bdb07e352821fb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c60e7b347af0c513e5345dcb94c633" id="r_a86c60e7b347af0c513e5345dcb94c633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c60e7b347af0c513e5345dcb94c633">ReadRegistryRC663</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName)</td></tr>
+<tr class="memdesc:a86c60e7b347af0c513e5345dcb94c633"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction permettant d'envoyer les parametres de configuration du composant RF  <br /></td></tr>
+<tr class="separator:a86c60e7b347af0c513e5345dcb94c633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><p>Fonction ODALID </p><dl class="section author"><dt>Auteur</dt><dd>Vincent T. </dd></dl>
@@ -544,6 +569,66 @@ Fonctions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define LED_YELLOW_ON&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>???. </p>
+
+</div>
+</div>
+<a id="a32b66c3006c1c136b8848e7355f1d20e" name="a32b66c3006c1c136b8848e7355f1d20e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b66c3006c1c136b8848e7355f1d20e">&#9670;&#160;</a></span>MIFARE_106_RXANA_REG_A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIFARE_106_RXANA_REG_A&#160;&#160;&#160;0x00D1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>???. </p>
+
+</div>
+</div>
+<a id="a179fc3f1af11e0b99a1e9c6b5025e4e8" name="a179fc3f1af11e0b99a1e9c6b5025e4e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a179fc3f1af11e0b99a1e9c6b5025e4e8">&#9670;&#160;</a></span>MIFARE_106_RXTHRESHOLD_REG_A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIFARE_106_RXTHRESHOLD_REG_A&#160;&#160;&#160;0x00CF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>???. </p>
+
+</div>
+</div>
+<a id="a852ea2463949b3bae5c7e4f3dba65b31" name="a852ea2463949b3bae5c7e4f3dba65b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a852ea2463949b3bae5c7e4f3dba65b31">&#9670;&#160;</a></span>TYPEB_106_RXANA_REG_A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TYPEB_106_RXANA_REG_A&#160;&#160;&#160;0x0125</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>???. </p>
+
+</div>
+</div>
+<a id="a3bb29e92edb8f6aeb653771b3580f639" name="a3bb29e92edb8f6aeb653771b3580f639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bb29e92edb8f6aeb653771b3580f639">&#9670;&#160;</a></span>TYPEB_106_RXTHRESHOLD_REG_A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TYPEB_106_RXTHRESHOLD_REG_A&#160;&#160;&#160;0x0123</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -894,6 +979,32 @@ Fonctions</h2></td></tr>
 
 </div>
 </div>
+<a id="a86c60e7b347af0c513e5345dcb94c633" name="a86c60e7b347af0c513e5345dcb94c633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c60e7b347af0c513e5345dcb94c633">&#9670;&#160;</a></span>ReadRegistryRC663()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> ReadRegistryRC663 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *</td>          <td class="paramname"><span class="paramname"><em>pName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fonction permettant d'envoyer les parametres de configuration du composant RF </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a6e843219776ee15fa5558016638ba21b" name="a6e843219776ee15fa5558016638ba21b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e843219776ee15fa5558016638ba21b">&#9670;&#160;</a></span>RF_Config_Card_Mode()</h2>
 
@@ -974,6 +1085,41 @@ Fonctions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8999932c30f7fa22c0d5eb2bcccf6bda" name="a8999932c30f7fa22c0d5eb2bcccf6bda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8999932c30f7fa22c0d5eb2bcccf6bda">&#9670;&#160;</a></span>Set_EEPROMProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Set_EEPROMProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *</td>          <td class="paramname"><span class="paramname"><em>pName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a></td>          <td class="paramname"><span class="paramname"><em>AddReg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></td>          <td class="paramname"><span class="paramname"><em>Reg</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fonction permettant d'envoyer les parametres de configuration du composant RF </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a6a8d165def56be2b443806d71f337e33" name="a6a8d165def56be2b443806d71f337e33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a8d165def56be2b443806d71f337e33">&#9670;&#160;</a></span>Set_Property()</h2>
 
@@ -1011,6 +1157,92 @@ Fonctions</h2></td></tr>
     <tr><td class="paramname">pName</td><td>[In] Information sur le lecteur .  </td></tr>
     <tr><td class="paramname">AddReg</td><td>[In] Adresse .  </td></tr>
     <tr><td class="paramname">Reg</td><td>[In] Registre . </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abcd186bbbdd070021c16cefaaa058630" name="abcd186bbbdd070021c16cefaaa058630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd186bbbdd070021c16cefaaa058630">&#9670;&#160;</a></span>UnlockRC663()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> UnlockRC663 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *</td>          <td class="paramname"><span class="paramname"><em>pName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fonction permettant d'envoyer les parametres de configuration du composant RF </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae2e14cea503bb805b80284ed23c13718" name="ae2e14cea503bb805b80284ed23c13718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2e14cea503bb805b80284ed23c13718">&#9670;&#160;</a></span>UseAuxRC663()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> UseAuxRC663 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *</td>          <td class="paramname"><span class="paramname"><em>pName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></td>          <td class="paramname"><span class="paramname"><em>aux</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fonction permettant d'envoyer les parametres de configuration du composant RF </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab1348f0d7c2d9016bdb07e352821fb19" name="ab1348f0d7c2d9016bdb07e352821fb19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1348f0d7c2d9016bdb07e352821fb19">&#9670;&#160;</a></span>UseSigoutRC663()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> UseSigoutRC663 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *</td>          <td class="paramname"><span class="paramname"><em>pName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></td>          <td class="paramname"><span class="paramname"><em>sigout</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fonction permettant d'envoyer les parametres de configuration du composant RF </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
   </table>
   </dd>
 </dl>

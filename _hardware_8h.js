@@ -1,5 +1,6 @@
 var _hardware_8h =
 [
+    [ "DEVICE_INFO", "struct_d_e_v_i_c_e___i_n_f_o.html", null ],
     [ "ReaderName", "struct_reader_name.html", "struct_reader_name" ],
     [ "BlockingEnabled", "_hardware_8h.html#a83b51cbace5260e754a55e1542bb9eba", null ],
     [ "DataMem", "_hardware_8h.html#a76644fd4893da5414a36a97a9c45733b", null ],
