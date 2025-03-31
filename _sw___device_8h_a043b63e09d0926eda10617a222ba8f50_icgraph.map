@@ -1,0 +1,5 @@
+<map id="Version" name="Version">
+<area shape="rect" id="Node000001" title="Fonction permettant d obtenir la version du firmware du lecteur." alt="" coords="193,5,257,32"/>
+<area shape="rect" id="Node000002" href="$_sw___device_8h.html#a81f9bee2dd29fef240b389f33d9bcc84" title="foncion pour obtenir la version de LibraryExtension" alt="" coords="5,5,145,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,21,145,21,145,16,177,16"/>
+</map>

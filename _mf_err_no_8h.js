@@ -190,6 +190,7 @@ var _mf_err_no_8h =
     [ "MI_WRONG_TEST_MODE", "_mf_err_no_8h.html#a15831671eac9230d4aaa83f2e4fdff7d", null ],
     [ "MI_WRONG_TOKEN", "_mf_err_no_8h.html#ad6b3af912438a5a9f87bb38fcb8e2918", null ],
     [ "MI_WRONG_VALUE", "_mf_err_no_8h.html#a6aee4638f8aa9598eb635a0c344cb258", null ],
+    [ "MI_WTX", "_mf_err_no_8h.html#a7d17400fe083c7de7e728543116f4825", null ],
     [ "RdMUX_CHANGES_TREATED", "_mf_err_no_8h.html#ae739c3dd3b544b580aee35ad6eee2cb6", null ],
     [ "RdMUX_ERR_BASE_END", "_mf_err_no_8h.html#adbdbb00972845cdc5978b6de1d735d15", null ],
     [ "RdMUX_ERR_BASE_START", "_mf_err_no_8h.html#ade6070ef131369a51cd85625ac26c8e4", null ],

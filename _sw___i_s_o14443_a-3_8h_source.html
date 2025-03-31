@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.12.0"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ODALID Librairie Carte MIFARE:  Fichier source de source/Extension/ISO14443A-3/Sw_ISO14443A-3.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
   <td id="projectalign">
-   <div id="projectname">ODALID Librairie Carte MIFARE<span id="projectnumber">&#160;v0.6</span>
+   <div id="projectname">ODALID Librairie Carte MIFARE<span id="projectnumber">&#160;v0.7</span>
    </div>
   </td>
  </tr>
@@ -36,7 +36,7 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Généré par Doxygen 1.12.0 -->
+<!-- Généré par Doxygen 1.13.2 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
@@ -105,7 +105,8 @@ $(function(){initNavTree('_sw___i_s_o14443_a-3_8h_source.html',''); initResizabl
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* Copyright (c) 2009-2021 ODALID - https://odalid.com</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">*/</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#ifndef SW_ISO14443A_3_H</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define SW_ISO14443A_3_H</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
@@ -116,23 +117,23 @@ $(function(){initNavTree('_sw___i_s_o14443_a-3_8h_source.html',''); initResizabl
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#if defined (__cplusplus)</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="_sw___i_s_o14443_a-3_8h.html#a7483320ae89f50da5f5b3c80cc9b5c2a">   31</a></span>ODALID_LIB <a class="code hl_typedef" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> <a class="code hl_function" href="_sw___i_s_o14443_a-3_8h.html#a7483320ae89f50da5f5b3c80cc9b5c2a">ISO14443_3_A_PollCard</a>(</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                                            <a class="code hl_struct" href="struct_reader_name.html">ReaderName</a> *pName,      </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                                            <a class="code hl_struct" href="struct_reader_name.html">ReaderName</a> *pName,        </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                                            <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *atq,           </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                                            <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *sak,           </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                                            <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *uid,           </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                                            <a class="code hl_typedef" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> *uid_len       </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                                            );</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="_sw___i_s_o14443_a-3_8h.html#ac294caa1ebcc1607edb018f8e6da97b1">   44</a></span>ODALID_LIB <a class="code hl_typedef" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> <a class="code hl_function" href="_sw___i_s_o14443_a-3_8h.html#ac294caa1ebcc1607edb018f8e6da97b1">ISO14443_3_A_PollCardWU</a>(</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                                            <a class="code hl_struct" href="struct_reader_name.html">ReaderName</a> *pName,      </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                                            <a class="code hl_struct" href="struct_reader_name.html">ReaderName</a> *pName,        </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                                            <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *atq,           </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                                            <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *sak,           </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                                            <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *uid,           </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                                            <a class="code hl_typedef" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> *uid_len       </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                                            );</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="_sw___i_s_o14443_a-3_8h.html#a331f89d183eeb53c6292af893da76a84">   57</a></span>ODALID_LIB <a class="code hl_typedef" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> <a class="code hl_function" href="_sw___i_s_o14443_a-3_8h.html#a331f89d183eeb53c6292af893da76a84">ISO14443_3_A_Halt</a>(</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                                        <a class="code hl_struct" href="struct_reader_name.html">ReaderName</a> *pName          </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                                        );</div>
@@ -157,7 +158,7 @@ $(function(){initNavTree('_sw___i_s_o14443_a-3_8h_source.html',''); initResizabl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_3f45b78a281ff7342088d1a157e24ab8.html">Extension</a></li><li class="navelem"><a class="el" href="dir_5f71bd4f647187718ab448e1b4413f17.html">ISO14443A-3</a></li><li class="navelem"><a class="el" href="_sw___i_s_o14443_a-3_8h.html">Sw_ISO14443A-3.h</a></li>
-    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>
